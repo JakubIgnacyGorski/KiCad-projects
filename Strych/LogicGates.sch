@@ -1,0 +1,1500 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2EF91
+P 2650 4850
+AR Path="/60C2EF91" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2EF91" Ref="Q8"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EF91" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2840 4896 50  0000 L CNN
+F 1 "2N2222" H 2840 4805 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 4775 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 2650 4850 50  0001 L CNN
+	1    2650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2EF97
+P 2650 5350
+AR Path="/60C2EF97" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2EF97" Ref="Q9"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EF97" Ref="Q?"  Part="1" 
+F 0 "Q?" H 2840 5396 50  0000 L CNN
+F 1 "2N2222" H 2840 5305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 2850 5275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 2650 5350 50  0001 L CNN
+	1    2650 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2EF9D
+P 2300 4850
+AR Path="/60C2EF9D" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EF9D" Ref="R8"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EF9D" Ref="R?"  Part="1" 
+F 0 "R?" V 2093 4850 50  0000 C CNN
+F 1 "10k" V 2184 4850 50  0000 C CNN
+F 2 "" V 2230 4850 50  0001 C CNN
+F 3 "~" H 2300 4850 50  0001 C CNN
+	1    2300 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2EFA3
+P 2300 5350
+AR Path="/60C2EFA3" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFA3" Ref="R9"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFA3" Ref="R?"  Part="1" 
+F 0 "R?" V 2093 5350 50  0000 C CNN
+F 1 "10k" V 2184 5350 50  0000 C CNN
+F 2 "" V 2230 5350 50  0001 C CNN
+F 3 "~" H 2300 5350 50  0001 C CNN
+	1    2300 5350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2EFA9
+P 2750 5800
+AR Path="/60C2EFA9" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFA9" Ref="R12"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFA9" Ref="R?"  Part="1" 
+F 0 "R?" H 2820 5846 50  0000 L CNN
+F 1 "4k7" H 2820 5755 50  0000 L CNN
+F 2 "" V 2680 5800 50  0001 C CNN
+F 3 "~" H 2750 5800 50  0001 C CNN
+	1    2750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 5150 3200 5150
+Wire Wire Line
+	2750 4650 3200 4650
+Connection ~ 3200 4650
+Wire Wire Line
+	2750 5050 3150 5050
+Wire Wire Line
+	3150 5050 3150 5600
+Wire Wire Line
+	2750 5550 2750 5600
+Wire Wire Line
+	2750 5600 3150 5600
+Connection ~ 3150 5600
+Wire Wire Line
+	2750 5600 2750 5650
+Connection ~ 2750 5600
+Wire Wire Line
+	1400 4600 1400 3250
+Wire Wire Line
+	1450 4700 1450 3750
+Wire Wire Line
+	1450 4800 1450 4850
+Wire Wire Line
+	1450 4850 1500 4850
+Wire Wire Line
+	1450 4900 1450 5350
+Wire Wire Line
+	1450 5350 2150 5350
+Connection ~ 3000 4000
+Wire Wire Line
+	3000 4000 3000 4050
+Connection ~ 3400 4000
+Wire Wire Line
+	3000 4000 3400 4000
+Wire Wire Line
+	3000 3950 3000 4000
+Wire Wire Line
+	3400 3450 3400 4000
+Wire Wire Line
+	3000 3450 3400 3450
+Connection ~ 3450 3050
+Wire Wire Line
+	3000 3050 3450 3050
+Wire Wire Line
+	3450 3550 3450 3050
+Wire Wire Line
+	3000 3550 3450 3550
+$Comp
+L Device:R R?
+U 1 1 60C2EFD0
+P 3000 4200
+AR Path="/60C2EFD0" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFD0" Ref="R13"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFD0" Ref="R?"  Part="1" 
+F 0 "R?" H 3070 4246 50  0000 L CNN
+F 1 "4k7" H 3070 4155 50  0000 L CNN
+F 2 "" V 2930 4200 50  0001 C CNN
+F 3 "~" H 3000 4200 50  0001 C CNN
+	1    3000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2EFD6
+P 2550 3750
+AR Path="/60C2EFD6" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFD6" Ref="R11"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFD6" Ref="R?"  Part="1" 
+F 0 "R?" V 2343 3750 50  0000 C CNN
+F 1 "10k" V 2434 3750 50  0000 C CNN
+F 2 "" V 2480 3750 50  0001 C CNN
+F 3 "~" H 2550 3750 50  0001 C CNN
+	1    2550 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2EFDC
+P 2550 3250
+AR Path="/60C2EFDC" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFDC" Ref="R10"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFDC" Ref="R?"  Part="1" 
+F 0 "R?" V 2343 3250 50  0000 C CNN
+F 1 "10k" V 2434 3250 50  0000 C CNN
+F 2 "" V 2480 3250 50  0001 C CNN
+F 3 "~" H 2550 3250 50  0001 C CNN
+	1    2550 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2EFE2
+P 2900 3750
+AR Path="/60C2EFE2" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2EFE2" Ref="Q11"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFE2" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3090 3796 50  0000 L CNN
+F 1 "2N2222" H 3090 3705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 3675 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 2900 3750 50  0001 L CNN
+	1    2900 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2EFE8
+P 2900 3250
+AR Path="/60C2EFE8" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2EFE8" Ref="Q10"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFE8" Ref="Q?"  Part="1" 
+F 0 "Q?" H 3090 3296 50  0000 L CNN
+F 1 "2N2222" H 3090 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 3100 3175 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 2900 3250 50  0001 L CNN
+	1    2900 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 1700 7250 1750
+Connection ~ 7250 1700
+Wire Wire Line
+	7250 1650 7250 1700
+$Comp
+L Device:R R?
+U 1 1 60C2EFF1
+P 7250 1900
+AR Path="/60C2EFF1" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFF1" Ref="R37"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFF1" Ref="R?"  Part="1" 
+F 0 "R?" H 7320 1946 50  0000 L CNN
+F 1 "4k7" H 7320 1855 50  0000 L CNN
+F 2 "" V 7180 1900 50  0001 C CNN
+F 3 "~" H 7250 1900 50  0001 C CNN
+	1    7250 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2EFF7
+P 6800 1050
+AR Path="/60C2EFF7" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFF7" Ref="R33"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFF7" Ref="R?"  Part="1" 
+F 0 "R?" V 6593 1050 50  0000 C CNN
+F 1 "10k" V 6684 1050 50  0000 C CNN
+F 2 "" V 6730 1050 50  0001 C CNN
+F 3 "~" H 6800 1050 50  0001 C CNN
+	1    6800 1050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2EFFD
+P 6800 1450
+AR Path="/60C2EFFD" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2EFFD" Ref="R34"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2EFFD" Ref="R?"  Part="1" 
+F 0 "R?" V 6593 1450 50  0000 C CNN
+F 1 "10k" V 6684 1450 50  0000 C CNN
+F 2 "" V 6730 1450 50  0001 C CNN
+F 3 "~" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F003
+P 7150 1450
+AR Path="/60C2F003" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F003" Ref="Q23"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F003" Ref="Q?"  Part="1" 
+F 0 "Q?" V 7385 1450 50  0000 C CNN
+F 1 "2N2222" V 7476 1450 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7350 1375 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 7150 1450 50  0001 L CNN
+	1    7150 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F009
+P 7150 1050
+AR Path="/60C2F009" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F009" Ref="Q22"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F009" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7340 1096 50  0000 L CNN
+F 1 "2N2222" H 7340 1005 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7350 975 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 7150 1050 50  0001 L CNN
+	1    7150 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3250 2400 3250
+Wire Wire Line
+	1450 3750 2400 3750
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F011
+P 4800 5750
+AR Path="/60C2F011" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F011" Ref="Q12"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F011" Ref="Q?"  Part="1" 
+F 0 "Q?" H 4990 5796 50  0000 L CNN
+F 1 "2N2222" H 4990 5705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5000 5675 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 4800 5750 50  0001 L CNN
+	1    4800 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F017
+P 4300 5550
+AR Path="/60C2F017" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F017" Ref="R14"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F017" Ref="R?"  Part="1" 
+F 0 "R?" V 4093 5550 50  0000 C CNN
+F 1 "10k" V 4184 5550 50  0000 C CNN
+F 2 "" V 4230 5550 50  0001 C CNN
+F 3 "~" H 4300 5550 50  0001 C CNN
+	1    4300 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F01D
+P 4300 5950
+AR Path="/60C2F01D" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F01D" Ref="R15"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F01D" Ref="R?"  Part="1" 
+F 0 "R?" V 4093 5950 50  0000 C CNN
+F 1 "10k" V 4184 5950 50  0000 C CNN
+F 2 "" V 4230 5950 50  0001 C CNN
+F 3 "~" H 4300 5950 50  0001 C CNN
+	1    4300 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F023
+P 4900 5300
+AR Path="/60C2F023" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F023" Ref="R20"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F023" Ref="R?"  Part="1" 
+F 0 "R?" H 4970 5346 50  0000 L CNN
+F 1 "4k7" H 4970 5255 50  0000 L CNN
+F 2 "" V 4830 5300 50  0001 C CNN
+F 3 "~" H 4900 5300 50  0001 C CNN
+	1    4900 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 5950 4450 5750
+Wire Wire Line
+	4600 5750 4450 5750
+Connection ~ 4450 5750
+Wire Wire Line
+	4450 5750 4450 5550
+Wire Wire Line
+	4900 5550 4900 5500
+Wire Wire Line
+	4900 5450 4900 5500
+Connection ~ 4900 5500
+Wire Wire Line
+	5100 4300 5500 4300
+Connection ~ 5100 4300
+Wire Wire Line
+	5100 4250 5100 4300
+Wire Wire Line
+	5100 4350 5100 4300
+Wire Wire Line
+	4650 4550 4650 4350
+Connection ~ 4650 4550
+Wire Wire Line
+	4800 4550 4650 4550
+Wire Wire Line
+	4650 4750 4650 4550
+$Comp
+L Device:R R?
+U 1 1 60C2F038
+P 5100 4100
+AR Path="/60C2F038" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F038" Ref="R23"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F038" Ref="R?"  Part="1" 
+F 0 "R?" H 5170 4146 50  0000 L CNN
+F 1 "4k7" H 5170 4055 50  0000 L CNN
+F 2 "" V 5030 4100 50  0001 C CNN
+F 3 "~" H 5100 4100 50  0001 C CNN
+	1    5100 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F03E
+P 4500 4750
+AR Path="/60C2F03E" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F03E" Ref="R17"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F03E" Ref="R?"  Part="1" 
+F 0 "R?" V 4293 4750 50  0000 C CNN
+F 1 "10k" V 4384 4750 50  0000 C CNN
+F 2 "" V 4430 4750 50  0001 C CNN
+F 3 "~" H 4500 4750 50  0001 C CNN
+	1    4500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F044
+P 4500 4350
+AR Path="/60C2F044" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F044" Ref="R16"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F044" Ref="R?"  Part="1" 
+F 0 "R?" V 4293 4350 50  0000 C CNN
+F 1 "10k" V 4384 4350 50  0000 C CNN
+F 2 "" V 4430 4350 50  0001 C CNN
+F 3 "~" H 4500 4350 50  0001 C CNN
+	1    4500 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F04A
+P 5000 4550
+AR Path="/60C2F04A" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F04A" Ref="Q13"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F04A" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5190 4596 50  0000 L CNN
+F 1 "2N2222" H 5190 4505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5200 4475 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 5000 4550 50  0001 L CNN
+	1    5000 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5350 3200
+Wire Wire Line
+	5350 3150 5350 3200
+Wire Wire Line
+	5350 3250 5350 3200
+Wire Wire Line
+	4900 3450 4900 3250
+Connection ~ 4900 3450
+Wire Wire Line
+	5050 3450 4900 3450
+Wire Wire Line
+	4900 3650 4900 3450
+$Comp
+L Device:R R?
+U 1 1 60C2F057
+P 5350 3000
+AR Path="/60C2F057" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F057" Ref="R24"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F057" Ref="R?"  Part="1" 
+F 0 "R?" H 5420 3046 50  0000 L CNN
+F 1 "4k7" H 5420 2955 50  0000 L CNN
+F 2 "" V 5280 3000 50  0001 C CNN
+F 3 "~" H 5350 3000 50  0001 C CNN
+	1    5350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F05D
+P 4750 3650
+AR Path="/60C2F05D" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F05D" Ref="R19"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F05D" Ref="R?"  Part="1" 
+F 0 "R?" V 4543 3650 50  0000 C CNN
+F 1 "10k" V 4634 3650 50  0000 C CNN
+F 2 "" V 4680 3650 50  0001 C CNN
+F 3 "~" H 4750 3650 50  0001 C CNN
+	1    4750 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F063
+P 4750 3250
+AR Path="/60C2F063" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F063" Ref="R18"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F063" Ref="R?"  Part="1" 
+F 0 "R?" V 4543 3250 50  0000 C CNN
+F 1 "10k" V 4634 3250 50  0000 C CNN
+F 2 "" V 4680 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F069
+P 5250 3450
+AR Path="/60C2F069" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F069" Ref="Q14"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F069" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5440 3496 50  0000 L CNN
+F 1 "2N2222" H 5440 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5450 3375 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 5250 3450 50  0001 L CNN
+	1    5250 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2050 6000 2050
+Connection ~ 5600 2050
+Wire Wire Line
+	5600 2000 5600 2050
+Wire Wire Line
+	5600 2100 5600 2050
+Wire Wire Line
+	5150 2300 5150 2100
+Connection ~ 5150 2300
+Wire Wire Line
+	5300 2300 5150 2300
+Wire Wire Line
+	5150 2500 5150 2300
+$Comp
+L Device:R R?
+U 1 1 60C2F077
+P 5600 1850
+AR Path="/60C2F077" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F077" Ref="R25"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F077" Ref="R?"  Part="1" 
+F 0 "R?" H 5670 1896 50  0000 L CNN
+F 1 "4k7" H 5670 1805 50  0000 L CNN
+F 2 "" V 5530 1850 50  0001 C CNN
+F 3 "~" H 5600 1850 50  0001 C CNN
+	1    5600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F07D
+P 5000 2500
+AR Path="/60C2F07D" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F07D" Ref="R22"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F07D" Ref="R?"  Part="1" 
+F 0 "R?" V 4793 2500 50  0000 C CNN
+F 1 "10k" V 4884 2500 50  0000 C CNN
+F 2 "" V 4930 2500 50  0001 C CNN
+F 3 "~" H 5000 2500 50  0001 C CNN
+	1    5000 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F083
+P 5000 2100
+AR Path="/60C2F083" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F083" Ref="R21"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F083" Ref="R?"  Part="1" 
+F 0 "R?" V 4793 2100 50  0000 C CNN
+F 1 "10k" V 4884 2100 50  0000 C CNN
+F 2 "" V 4930 2100 50  0001 C CNN
+F 3 "~" H 5000 2100 50  0001 C CNN
+	1    5000 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F089
+P 5500 2300
+AR Path="/60C2F089" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F089" Ref="Q15"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F089" Ref="Q?"  Part="1" 
+F 0 "Q?" H 5690 2346 50  0000 L CNN
+F 1 "2N2222" H 5690 2255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 5700 2225 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 5500 2300 50  0001 L CNN
+	1    5500 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3250 1400 2750
+Wire Wire Line
+	1400 2750 4500 2750
+Wire Wire Line
+	4500 2750 4500 3250
+Connection ~ 1400 3250
+Wire Wire Line
+	1450 3750 1450 2600
+Wire Wire Line
+	1450 2100 4850 2100
+Connection ~ 1450 3750
+Wire Wire Line
+	3600 5600 3600 3650
+Wire Wire Line
+	3600 2500 4850 2500
+Wire Wire Line
+	3150 5600 3600 5600
+Wire Wire Line
+	4500 3250 4600 3250
+Wire Wire Line
+	3600 3650 4600 3650
+Connection ~ 3600 3650
+Wire Wire Line
+	3600 3650 3600 2500
+Wire Wire Line
+	4350 4000 4350 4350
+Wire Wire Line
+	3400 4000 3700 4000
+Wire Wire Line
+	1450 5350 1450 6050
+Wire Wire Line
+	1450 6050 3650 6050
+Wire Wire Line
+	3650 6050 3650 5100
+Wire Wire Line
+	3650 4750 4350 4750
+Connection ~ 1450 5350
+Wire Wire Line
+	3700 4000 3700 5550
+Wire Wire Line
+	3700 5550 4150 5550
+Connection ~ 3700 4000
+Wire Wire Line
+	3700 4000 4350 4000
+Wire Wire Line
+	1500 4850 1500 6100
+Connection ~ 1500 4850
+Wire Wire Line
+	1500 4850 2150 4850
+Wire Wire Line
+	7100 3250 7100 3300
+Connection ~ 7100 3250
+Wire Wire Line
+	7100 3200 7100 3250
+$Comp
+L Device:R R?
+U 1 1 60C2F0AE
+P 7100 3450
+AR Path="/60C2F0AE" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0AE" Ref="R36"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0AE" Ref="R?"  Part="1" 
+F 0 "R?" H 7170 3496 50  0000 L CNN
+F 1 "4k7" H 7170 3405 50  0000 L CNN
+F 2 "" V 7030 3450 50  0001 C CNN
+F 3 "~" H 7100 3450 50  0001 C CNN
+	1    7100 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F0B4
+P 6650 2600
+AR Path="/60C2F0B4" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0B4" Ref="R31"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0B4" Ref="R?"  Part="1" 
+F 0 "R?" V 6443 2600 50  0000 C CNN
+F 1 "10k" V 6534 2600 50  0000 C CNN
+F 2 "" V 6580 2600 50  0001 C CNN
+F 3 "~" H 6650 2600 50  0001 C CNN
+	1    6650 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F0BA
+P 6650 3000
+AR Path="/60C2F0BA" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0BA" Ref="R32"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0BA" Ref="R?"  Part="1" 
+F 0 "R?" V 6443 3000 50  0000 C CNN
+F 1 "10k" V 6534 3000 50  0000 C CNN
+F 2 "" V 6580 3000 50  0001 C CNN
+F 3 "~" H 6650 3000 50  0001 C CNN
+	1    6650 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F0C0
+P 7000 3000
+AR Path="/60C2F0C0" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F0C0" Ref="Q21"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0C0" Ref="Q?"  Part="1" 
+F 0 "Q?" V 7235 3000 50  0000 C CNN
+F 1 "2N2222" V 7326 3000 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7200 2925 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 7000 3000 50  0001 L CNN
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F0C6
+P 7000 2600
+AR Path="/60C2F0C6" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F0C6" Ref="Q20"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0C6" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7190 2646 50  0000 L CNN
+F 1 "2N2222" H 7190 2555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7200 2525 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 7000 2600 50  0001 L CNN
+	1    7000 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4450 6800 4500
+Connection ~ 6800 4450
+Wire Wire Line
+	6800 4400 6800 4450
+$Comp
+L Device:R R?
+U 1 1 60C2F0CF
+P 6800 4650
+AR Path="/60C2F0CF" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0CF" Ref="R35"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0CF" Ref="R?"  Part="1" 
+F 0 "R?" H 6870 4696 50  0000 L CNN
+F 1 "4k7" H 6870 4605 50  0000 L CNN
+F 2 "" V 6730 4650 50  0001 C CNN
+F 3 "~" H 6800 4650 50  0001 C CNN
+	1    6800 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F0D5
+P 6350 3800
+AR Path="/60C2F0D5" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0D5" Ref="R28"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0D5" Ref="R?"  Part="1" 
+F 0 "R?" V 6143 3800 50  0000 C CNN
+F 1 "10k" V 6234 3800 50  0000 C CNN
+F 2 "" V 6280 3800 50  0001 C CNN
+F 3 "~" H 6350 3800 50  0001 C CNN
+	1    6350 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F0DB
+P 6350 4200
+AR Path="/60C2F0DB" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0DB" Ref="R29"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0DB" Ref="R?"  Part="1" 
+F 0 "R?" V 6143 4200 50  0000 C CNN
+F 1 "10k" V 6234 4200 50  0000 C CNN
+F 2 "" V 6280 4200 50  0001 C CNN
+F 3 "~" H 6350 4200 50  0001 C CNN
+	1    6350 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F0E1
+P 6700 4200
+AR Path="/60C2F0E1" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F0E1" Ref="Q19"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0E1" Ref="Q?"  Part="1" 
+F 0 "Q?" V 6935 4200 50  0000 C CNN
+F 1 "2N2222" V 7026 4200 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6900 4125 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 6700 4200 50  0001 L CNN
+	1    6700 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F0E7
+P 6700 3800
+AR Path="/60C2F0E7" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F0E7" Ref="Q18"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0E7" Ref="Q?"  Part="1" 
+F 0 "Q?" H 6890 3846 50  0000 L CNN
+F 1 "2N2222" H 6890 3755 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6900 3725 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 6700 3800 50  0001 L CNN
+	1    6700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 5750 6500 5800
+Connection ~ 6500 5750
+Wire Wire Line
+	6500 5700 6500 5750
+$Comp
+L Device:R R?
+U 1 1 60C2F0F0
+P 6500 5950
+AR Path="/60C2F0F0" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0F0" Ref="R30"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0F0" Ref="R?"  Part="1" 
+F 0 "R?" H 6570 5996 50  0000 L CNN
+F 1 "4k7" H 6570 5905 50  0000 L CNN
+F 2 "" V 6430 5950 50  0001 C CNN
+F 3 "~" H 6500 5950 50  0001 C CNN
+	1    6500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F0F6
+P 6050 5100
+AR Path="/60C2F0F6" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0F6" Ref="R26"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0F6" Ref="R?"  Part="1" 
+F 0 "R?" V 5843 5100 50  0000 C CNN
+F 1 "10k" V 5934 5100 50  0000 C CNN
+F 2 "" V 5980 5100 50  0001 C CNN
+F 3 "~" H 6050 5100 50  0001 C CNN
+	1    6050 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F0FC
+P 6050 5500
+AR Path="/60C2F0FC" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F0FC" Ref="R27"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F0FC" Ref="R?"  Part="1" 
+F 0 "R?" V 5843 5500 50  0000 C CNN
+F 1 "10k" V 5934 5500 50  0000 C CNN
+F 2 "" V 5980 5500 50  0001 C CNN
+F 3 "~" H 6050 5500 50  0001 C CNN
+	1    6050 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F102
+P 6400 5500
+AR Path="/60C2F102" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F102" Ref="Q17"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F102" Ref="Q?"  Part="1" 
+F 0 "Q?" V 6635 5500 50  0000 C CNN
+F 1 "2N2222" V 6726 5500 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6600 5425 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 6400 5500 50  0001 L CNN
+	1    6400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F108
+P 6400 5100
+AR Path="/60C2F108" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F108" Ref="Q16"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F108" Ref="Q?"  Part="1" 
+F 0 "Q?" H 6590 5146 50  0000 L CNN
+F 1 "2N2222" H 6590 5055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 6600 5025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 6400 5100 50  0001 L CNN
+	1    6400 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 2050 6000 1450
+Wire Wire Line
+	6000 1450 6650 1450
+Wire Wire Line
+	1400 2750 1400 1050
+Wire Wire Line
+	1400 1050 6650 1050
+Connection ~ 1400 2750
+Wire Wire Line
+	6500 3200 6500 3000
+Wire Wire Line
+	5350 3200 6500 3200
+Wire Wire Line
+	6500 2600 1450 2600
+Connection ~ 1450 2600
+Wire Wire Line
+	1450 2600 1450 2100
+Wire Wire Line
+	5500 4300 5500 3800
+Wire Wire Line
+	5500 3800 6200 3800
+Wire Wire Line
+	5550 6100 5550 4200
+Wire Wire Line
+	5550 4200 6200 4200
+Wire Wire Line
+	4100 5950 4100 6100
+Wire Wire Line
+	4100 5950 4150 5950
+Connection ~ 4100 6100
+Wire Wire Line
+	4100 6100 5550 6100
+Wire Wire Line
+	1500 6100 4100 6100
+Wire Wire Line
+	5900 5100 3650 5100
+Connection ~ 3650 5100
+Wire Wire Line
+	3650 5100 3650 4750
+Wire Wire Line
+	4900 5500 5900 5500
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F12B
+P 9400 4350
+AR Path="/60C2F12B" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F12B" Ref="Q28"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F12B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 9590 4396 50  0000 L CNN
+F 1 "2N2222" H 9590 4305 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9600 4275 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 9400 4350 50  0001 L CNN
+	1    9400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F131
+P 8900 4150
+AR Path="/60C2F131" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F131" Ref="R44"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F131" Ref="R?"  Part="1" 
+F 0 "R?" V 8693 4150 50  0000 C CNN
+F 1 "10k" V 8784 4150 50  0000 C CNN
+F 2 "" V 8830 4150 50  0001 C CNN
+F 3 "~" H 8900 4150 50  0001 C CNN
+	1    8900 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F137
+P 8900 4550
+AR Path="/60C2F137" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F137" Ref="R45"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F137" Ref="R?"  Part="1" 
+F 0 "R?" V 8693 4550 50  0000 C CNN
+F 1 "10k" V 8784 4550 50  0000 C CNN
+F 2 "" V 8830 4550 50  0001 C CNN
+F 3 "~" H 8900 4550 50  0001 C CNN
+	1    8900 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F13D
+P 9500 3900
+AR Path="/60C2F13D" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F13D" Ref="R46"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F13D" Ref="R?"  Part="1" 
+F 0 "R?" H 9570 3946 50  0000 L CNN
+F 1 "4k7" H 9570 3855 50  0000 L CNN
+F 2 "" V 9430 3900 50  0001 C CNN
+F 3 "~" H 9500 3900 50  0001 C CNN
+	1    9500 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 4550 9050 4350
+Wire Wire Line
+	9200 4350 9050 4350
+Connection ~ 9050 4350
+Wire Wire Line
+	9050 4350 9050 4150
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F14B
+P 7650 4450
+AR Path="/60C2F14B" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F14B" Ref="Q24"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F14B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7840 4496 50  0000 L CNN
+F 1 "2N2222" H 7840 4405 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7850 4375 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 7650 4450 50  0001 L CNN
+	1    7650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F151
+P 7650 4950
+AR Path="/60C2F151" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F151" Ref="Q25"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F151" Ref="Q?"  Part="1" 
+F 0 "Q?" H 7840 4996 50  0000 L CNN
+F 1 "2N2222" H 7840 4905 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7850 4875 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 7650 4950 50  0001 L CNN
+	1    7650 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F157
+P 7300 4450
+AR Path="/60C2F157" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F157" Ref="R38"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F157" Ref="R?"  Part="1" 
+F 0 "R?" V 7093 4450 50  0000 C CNN
+F 1 "10k" V 7184 4450 50  0000 C CNN
+F 2 "" V 7230 4450 50  0001 C CNN
+F 3 "~" H 7300 4450 50  0001 C CNN
+	1    7300 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F15D
+P 7300 4950
+AR Path="/60C2F15D" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F15D" Ref="R39"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F15D" Ref="R?"  Part="1" 
+F 0 "R?" V 7093 4950 50  0000 C CNN
+F 1 "10k" V 7184 4950 50  0000 C CNN
+F 2 "" V 7230 4950 50  0001 C CNN
+F 3 "~" H 7300 4950 50  0001 C CNN
+	1    7300 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F163
+P 7750 5400
+AR Path="/60C2F163" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F163" Ref="R40"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F163" Ref="R?"  Part="1" 
+F 0 "R?" H 7820 5446 50  0000 L CNN
+F 1 "4k7" H 7820 5355 50  0000 L CNN
+F 2 "" V 7680 5400 50  0001 C CNN
+F 3 "~" H 7750 5400 50  0001 C CNN
+	1    7750 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 4750 8200 4750
+Wire Wire Line
+	8200 4750 8200 4250
+Wire Wire Line
+	7750 4250 8200 4250
+Connection ~ 8200 4250
+Wire Wire Line
+	7750 4650 8150 4650
+Wire Wire Line
+	8150 4650 8150 5200
+Wire Wire Line
+	7750 5150 7750 5200
+Wire Wire Line
+	7750 5200 8150 5200
+Connection ~ 8150 5200
+Wire Wire Line
+	7750 5200 7750 5250
+Connection ~ 7750 5200
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F175
+P 8250 2750
+AR Path="/60C2F175" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F175" Ref="Q26"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F175" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8440 2796 50  0000 L CNN
+F 1 "2N2222" H 8440 2705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8450 2675 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 8250 2750 50  0001 L CNN
+	1    8250 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60C2F17B
+P 8250 3250
+AR Path="/60C2F17B" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60C2F17B" Ref="Q27"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F17B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 8440 3296 50  0000 L CNN
+F 1 "2N2222" H 8440 3205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 8450 3175 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 8250 3250 50  0001 L CNN
+	1    8250 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F181
+P 7900 2750
+AR Path="/60C2F181" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F181" Ref="R41"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F181" Ref="R?"  Part="1" 
+F 0 "R?" V 7693 2750 50  0000 C CNN
+F 1 "10k" V 7784 2750 50  0000 C CNN
+F 2 "" V 7830 2750 50  0001 C CNN
+F 3 "~" H 7900 2750 50  0001 C CNN
+	1    7900 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F187
+P 7900 3250
+AR Path="/60C2F187" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F187" Ref="R42"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F187" Ref="R?"  Part="1" 
+F 0 "R?" V 7693 3250 50  0000 C CNN
+F 1 "10k" V 7784 3250 50  0000 C CNN
+F 2 "" V 7830 3250 50  0001 C CNN
+F 3 "~" H 7900 3250 50  0001 C CNN
+	1    7900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60C2F18D
+P 8350 3700
+AR Path="/60C2F18D" Ref="R?"  Part="1" 
+AR Path="/60C075BE/60C2F18D" Ref="R43"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F18D" Ref="R?"  Part="1" 
+F 0 "R?" H 8420 3746 50  0000 L CNN
+F 1 "4k7" H 8420 3655 50  0000 L CNN
+F 2 "" V 8280 3700 50  0001 C CNN
+F 3 "~" H 8350 3700 50  0001 C CNN
+	1    8350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3050 8800 3050
+Wire Wire Line
+	8800 3050 8800 2550
+Wire Wire Line
+	8350 2550 8800 2550
+Connection ~ 8800 2550
+Wire Wire Line
+	8350 2950 8750 2950
+Wire Wire Line
+	8750 2950 8750 3500
+Wire Wire Line
+	8350 3450 8350 3500
+Wire Wire Line
+	8350 3500 8750 3500
+Wire Wire Line
+	8350 3500 8350 3550
+Connection ~ 8350 3500
+Wire Wire Line
+	7150 4950 7150 5750
+Wire Wire Line
+	6500 5750 7150 5750
+Wire Wire Line
+	7750 2750 7750 1700
+Wire Wire Line
+	7250 1700 7750 1700
+Wire Wire Line
+	8750 4150 8750 3500
+Connection ~ 8750 3500
+Wire Wire Line
+	8750 5200 8750 4550
+Wire Wire Line
+	8150 5200 8750 5200
+Wire Wire Line
+	4900 5950 4900 6500
+Connection ~ 4900 6500
+Wire Wire Line
+	4900 6500 3000 6500
+Wire Wire Line
+	2750 5950 2750 6500
+Connection ~ 2750 6500
+Wire Wire Line
+	2750 6500 800  6500
+Wire Wire Line
+	6500 6100 6500 6500
+Connection ~ 6500 6500
+Wire Wire Line
+	5100 4750 5100 6500
+Connection ~ 5100 6500
+Wire Wire Line
+	5100 6500 4900 6500
+Wire Wire Line
+	3000 4350 3000 6500
+Connection ~ 3000 6500
+Wire Wire Line
+	3000 6500 2750 6500
+Wire Wire Line
+	5350 3650 5350 6500
+Connection ~ 5350 6500
+Wire Wire Line
+	5350 6500 5100 6500
+Wire Wire Line
+	5600 2500 5600 6500
+Wire Wire Line
+	5350 6500 5600 6500
+Connection ~ 5600 6500
+Wire Wire Line
+	5600 6500 6500 6500
+Wire Wire Line
+	6800 4800 6800 6500
+Connection ~ 6800 6500
+Wire Wire Line
+	7100 3600 7100 6500
+Connection ~ 7100 6500
+Wire Wire Line
+	7100 6500 6800 6500
+Wire Wire Line
+	7250 2050 7250 6500
+Wire Wire Line
+	7100 3250 7700 3250
+Wire Wire Line
+	7100 6500 7250 6500
+Wire Wire Line
+	6500 6500 6800 6500
+Wire Wire Line
+	6800 4450 7050 4450
+Wire Wire Line
+	7750 5550 7750 6500
+Wire Wire Line
+	7750 6500 7250 6500
+Connection ~ 7250 6500
+Wire Wire Line
+	9500 4550 9500 6500
+Connection ~ 7750 6500
+Wire Wire Line
+	3200 5150 3200 4650
+Wire Wire Line
+	4900 5150 4900 3950
+Wire Wire Line
+	4900 3950 5100 3950
+Wire Wire Line
+	5100 3950 5100 2850
+Wire Wire Line
+	5100 2850 5350 2850
+Connection ~ 5100 3950
+Connection ~ 5350 2850
+Wire Wire Line
+	5600 1700 5600 700 
+Wire Wire Line
+	5600 700  7250 700 
+Wire Wire Line
+	7250 700  7250 850 
+Wire Wire Line
+	3200 700  3200 4650
+Connection ~ 5600 700 
+Wire Wire Line
+	3450 700  3450 3050
+Wire Wire Line
+	3200 700  3450 700 
+Connection ~ 3450 700 
+Wire Wire Line
+	3450 700  5350 700 
+Wire Wire Line
+	5350 700  5350 2850
+Connection ~ 5350 700 
+Wire Wire Line
+	5350 700  5600 700 
+Wire Wire Line
+	8800 700  8800 2550
+Connection ~ 7250 700 
+Wire Wire Line
+	7100 2400 7100 1700
+Connection ~ 5600 1700
+Wire Wire Line
+	7100 1700 6050 1700
+Wire Wire Line
+	6800 3600 6050 3600
+Wire Wire Line
+	6050 3600 6050 1700
+Connection ~ 6050 1700
+Wire Wire Line
+	6050 1700 5600 1700
+Wire Wire Line
+	6500 4850 6050 4850
+Wire Wire Line
+	6050 4850 6050 3600
+Connection ~ 6050 3600
+Wire Wire Line
+	8200 700  8200 4250
+Wire Wire Line
+	7250 700  8200 700 
+Connection ~ 8200 700 
+Wire Wire Line
+	8200 700  8800 700 
+Wire Wire Line
+	9500 3750 9500 700 
+Wire Wire Line
+	9500 700  8800 700 
+Connection ~ 8800 700 
+Text GLabel 1250 4600 0    50   Input ~ 0
+R_IN_1
+Text GLabel 1250 4700 0    50   Input ~ 0
+R_IN_2
+Text GLabel 1250 4800 0    50   Input ~ 0
+R_IN_3
+Text GLabel 1250 4900 0    50   Input ~ 0
+R_IN_4
+Wire Wire Line
+	1250 4900 1450 4900
+Wire Wire Line
+	1250 4800 1450 4800
+Wire Wire Line
+	1250 4700 1450 4700
+Wire Wire Line
+	1400 4600 1250 4600
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60A0EBB2
+P 10150 4100
+AR Path="/60A0EBB2" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60A0EBB2" Ref="Q32"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60A0EBB2" Ref="Q?"  Part="1" 
+F 0 "Q?" H 10340 4146 50  0000 L CNN
+F 1 "2N2222" H 10340 4055 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10350 4025 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 10150 4100 50  0001 L CNN
+	1    10150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R50
+U 1 1 60A1781E
+P 9800 4100
+AR Path="/60C075BE/60A1781E" Ref="R50"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60A1781E" Ref="R?"  Part="1" 
+F 0 "R?" V 9593 4100 50  0000 C CNN
+F 1 "4k7" V 9684 4100 50  0000 C CNN
+F 2 "" V 9730 4100 50  0001 C CNN
+F 3 "~" H 9800 4100 50  0001 C CNN
+	1    9800 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9500 4050 9500 4100
+Wire Wire Line
+	9650 4100 9500 4100
+Connection ~ 9500 4100
+Wire Wire Line
+	9500 4100 9500 4150
+Wire Wire Line
+	10250 6500 10150 6500
+Connection ~ 9500 6500
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60A4FDA1
+P 10100 1700
+AR Path="/60A4FDA1" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60A4FDA1" Ref="Q31"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60A4FDA1" Ref="Q?"  Part="1" 
+F 0 "Q?" H 10290 1746 50  0000 L CNN
+F 1 "2N2222" H 10290 1655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10300 1625 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 10100 1700 50  0001 L CNN
+	1    10100 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R49
+U 1 1 60A4FDA7
+P 9750 1700
+AR Path="/60C075BE/60A4FDA7" Ref="R49"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60A4FDA7" Ref="R?"  Part="1" 
+F 0 "R?" V 9543 1700 50  0000 C CNN
+F 1 "4k7" V 9634 1700 50  0000 C CNN
+F 2 "" V 9680 1700 50  0001 C CNN
+F 3 "~" H 9750 1700 50  0001 C CNN
+	1    9750 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7750 1700 9600 1700
+Connection ~ 7750 1700
+Connection ~ 7700 3250
+Wire Wire Line
+	7700 3250 7750 3250
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60A7F3BF
+P 10050 2250
+AR Path="/60A7F3BF" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60A7F3BF" Ref="Q29"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60A7F3BF" Ref="Q?"  Part="1" 
+F 0 "Q?" H 10240 2296 50  0000 L CNN
+F 1 "2N2222" H 10240 2205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10250 2175 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 10050 2250 50  0001 L CNN
+	1    10050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R47
+U 1 1 60A7F3C5
+P 9700 2250
+AR Path="/60C075BE/60A7F3C5" Ref="R47"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60A7F3C5" Ref="R?"  Part="1" 
+F 0 "R?" V 9493 2250 50  0000 C CNN
+F 1 "4k7" V 9584 2250 50  0000 C CNN
+F 2 "" V 9630 2250 50  0001 C CNN
+F 3 "~" H 9700 2250 50  0001 C CNN
+	1    9700 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9550 2250 7700 2250
+Wire Wire Line
+	7700 2250 7700 3250
+Wire Wire Line
+	7050 4450 7050 3650
+Wire Wire Line
+	7050 3650 7650 3650
+Connection ~ 7050 4450
+Wire Wire Line
+	7050 4450 7150 4450
+Wire Wire Line
+	7150 5750 9550 5750
+Connection ~ 7150 5750
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60AA6A9B
+P 10050 5750
+AR Path="/60AA6A9B" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60AA6A9B" Ref="Q30"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60AA6A9B" Ref="Q?"  Part="1" 
+F 0 "Q?" H 10240 5796 50  0000 L CNN
+F 1 "2N2222" H 10240 5705 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10250 5675 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 10050 5750 50  0001 L CNN
+	1    10050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R48
+U 1 1 60AA6AA1
+P 9700 5750
+AR Path="/60C075BE/60AA6AA1" Ref="R48"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60AA6AA1" Ref="R?"  Part="1" 
+F 0 "R?" V 9493 5750 50  0000 C CNN
+F 1 "4k7" V 9584 5750 50  0000 C CNN
+F 2 "" V 9630 5750 50  0001 C CNN
+F 3 "~" H 9700 5750 50  0001 C CNN
+	1    9700 5750
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_BJT:BC237 Q?
+U 1 1 60AB1438
+P 10350 1250
+AR Path="/60AB1438" Ref="Q?"  Part="1" 
+AR Path="/60C075BE/60AB1438" Ref="Q33"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60AB1438" Ref="Q?"  Part="1" 
+F 0 "Q?" H 10540 1296 50  0000 L CNN
+F 1 "2N2222" H 10540 1205 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 10550 1175 50  0001 L CIN
+F 3 "http://www.onsemi.com/pub_link/Collateral/BC237-D.PDF" H 10350 1250 50  0001 L CNN
+	1    10350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R51
+U 1 1 60AB143E
+P 10000 1250
+AR Path="/60C075BE/60AB143E" Ref="R51"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60AB143E" Ref="R?"  Part="1" 
+F 0 "R?" V 9793 1250 50  0000 C CNN
+F 1 "4k7" V 9884 1250 50  0000 C CNN
+F 2 "" V 9930 1250 50  0001 C CNN
+F 3 "~" H 10000 1250 50  0001 C CNN
+	1    10000 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9850 1250 7650 1250
+Wire Wire Line
+	7650 1250 7650 3650
+Wire Wire Line
+	10150 5950 10150 6500
+Connection ~ 10150 6500
+Wire Wire Line
+	10150 6500 9500 6500
+Wire Wire Line
+	10250 4300 10250 4400
+Wire Wire Line
+	10150 2450 10150 2500
+Wire Wire Line
+	10150 4400 10250 4400
+Connection ~ 10250 4400
+Wire Wire Line
+	10250 4400 10250 6500
+Wire Wire Line
+	10200 1900 10200 1950
+Wire Wire Line
+	10200 2500 10150 2500
+Connection ~ 10150 2500
+Wire Wire Line
+	10150 2500 10150 4400
+Wire Wire Line
+	10450 1450 10450 1950
+Wire Wire Line
+	10450 1950 10200 1950
+Connection ~ 10200 1950
+Wire Wire Line
+	10200 1950 10200 2500
+Text GLabel 750  700  0    50   Input ~ 0
++5V
+Wire Wire Line
+	3200 700  750  700 
+Connection ~ 3200 700 
+Wire Wire Line
+	800  6500 800  6650
+$Comp
+L power:GND #PWR?
+U 1 1 60C2F1CD
+P 800 6650
+AR Path="/60C2F1CD" Ref="#PWR?"  Part="1" 
+AR Path="/60C075BE/60C2F1CD" Ref="#PWR02"  Part="1" 
+AR Path="/60CF767E/60D24DC1/60C2F1CD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 800 6400 50  0001 C CNN
+F 1 "GND" H 805 6477 50  0000 C CNN
+F 2 "" H 800 6650 50  0001 C CNN
+F 3 "" H 800 6650 50  0001 C CNN
+	1    800  6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 3850 8350 6500
+Wire Wire Line
+	7750 6500 8350 6500
+Wire Wire Line
+	8350 6500 9500 6500
+Connection ~ 8350 6500
+Text Label 10050 6500 2    50   ~ 0
+GND
+$EndSCHEMATC

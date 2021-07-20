@@ -1,0 +1,854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>P:\Projekty\Projekty KiCad\Rolety jadalnia x3\Rolety jadalnia x3.sch</source>
+    <date>13.07.2019 16:22:11</date>
+    <tool>Eeschema (5.0.1)-4</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Rolety jadalnia x3.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>5V to 3.3V</value>
+      <footprint>Footprint DIY:5v_to_3.3v</footprint>
+      <datasheet>https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="R-781.5-0.5" description="500mA Step-Down DC/DC-Regulator, 4.75-30V input, 1.5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB8C0E6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ESP-12E</value>
+      <footprint>RF_Module:ESP-12E</footprint>
+      <datasheet>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</datasheet>
+      <libsource lib="RF_Module" part="ESP-12E" description="802.11 b/g/n Wi-Fi Module"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB8C376</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>CD4555BE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/cd4555b</datasheet>
+      <fields>
+        <field name="Description">CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD4555BE</field>
+        <field name="Mouser Part Number">595-CD4555BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE</field>
+        <field name="RS Part Number">595-CD4555BE</field>
+        <field name="RS Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CD4555BE" description="CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB8CA89</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Double_Arduino_Relay_SSR</value>
+      <libsource lib="Arduino_Relay" part="Double_Arduino_Relay_SSR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB90F5F</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Double_Arduino_Relay_SSR</value>
+      <libsource lib="Arduino_Relay" part="Double_Arduino_Relay_SSR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9153D</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>Double_Arduino_Relay_SSR</value>
+      <libsource lib="Arduino_Relay" part="Double_Arduino_Relay_SSR" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB919E4</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>S9014 C331</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9A4F0</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>S9014 C331</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9AC7C</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>S9014 C331</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9B900</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>S9014 C331</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9BFBD</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>S9014 C331</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9C684</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>S9014 C331</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9CE78</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9F236</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9F2E5</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CB9FA81</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBA0274</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBAB1A7</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4k7</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBAB8F5</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>CD4555BE</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical</footprint>
+      <datasheet>http://www.ti.com/lit/gpn/cd4555b</datasheet>
+      <fields>
+        <field name="Description">CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD4555BE</field>
+        <field name="Mouser Part Number">595-CD4555BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE</field>
+        <field name="RS Part Number">595-CD4555BE</field>
+        <field name="RS Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="CD4555BE" description="CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CBBE0F9</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>MCP23017-E_SP</value>
+      <footprint>SamacSys_Parts:DIP794W56P254L3486H508Q28N</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/MCP23017-E_SP.pdf</datasheet>
+      <fields>
+        <field name="Description">MCP23017-E/SP, I/O Expander, 28-Pin SPDIP</field>
+        <field name="Height">5.08</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP23017-E/SP</field>
+        <field name="Mouser Part Number">579-MCP23017-E/SP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP23017-E%2FSP</field>
+      </fields>
+      <libsource lib="SamacSys_Parts" part="MCP23017-E_SP" description="MCP23017-E/SP, I/O Expander, 28-Pin SPDIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2A4C94</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Reed</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Reed" description="reed switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2DCB91</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_Reed</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Reed" description="reed switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2E010A</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_Reed</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Reed" description="reed switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2E31D1</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_Reed</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Reed" description="reed switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2EF982</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_Reed</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Reed" description="reed switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2EF989</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>SW_Reed</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_Reed" description="reed switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D2EF990</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Arduino_Relay" part="Double_Arduino_Relay_SSR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Double_Arduino_Relay_SSR</field>
+      </fields>
+      <pins>
+        <pin num="5V" name="VCC" type="power_in"/>
+        <pin num="~" name="230V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_EBC">
+      <description>NPN transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF_Module" part="ESP-12E">
+      <aliases>
+        <alias>ESP-12F</alias>
+      </aliases>
+      <description>802.11 b/g/n Wi-Fi Module</description>
+      <docs>http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf</docs>
+      <footprints>
+        <fp>ESP?12*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP-12E</field>
+        <field name="Footprint">RF_Module:ESP-12E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RST" type="input"/>
+        <pin num="2" name="ADC" type="input"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO16" type="BiDi"/>
+        <pin num="5" name="GPIO14" type="BiDi"/>
+        <pin num="6" name="GPIO12" type="BiDi"/>
+        <pin num="7" name="GPIO13" type="BiDi"/>
+        <pin num="8" name="VCC" type="power_in"/>
+        <pin num="9" name="CS0" type="input"/>
+        <pin num="10" name="MISO" type="BiDi"/>
+        <pin num="11" name="GPIO9" type="BiDi"/>
+        <pin num="12" name="GPIO10" type="BiDi"/>
+        <pin num="13" name="MOSI" type="BiDi"/>
+        <pin num="14" name="SCLK" type="BiDi"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GPIO15" type="BiDi"/>
+        <pin num="17" name="GPIO2" type="BiDi"/>
+        <pin num="18" name="GPIO0" type="BiDi"/>
+        <pin num="19" name="GPIO4" type="BiDi"/>
+        <pin num="20" name="GPIO5" type="BiDi"/>
+        <pin num="21" name="GPIO3/RXD" type="BiDi"/>
+        <pin num="22" name="GPIO1/TXD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="R-78E5.0-0.5">
+      <aliases>
+        <alias>R-78E3.3-0.5</alias>
+        <alias>R-78E9.0-0.5</alias>
+        <alias>R-78E12-0.5</alias>
+        <alias>R-78E15-0.5</alias>
+        <alias>R-78E5.0-1.0</alias>
+        <alias>R-78E3.3-1.0</alias>
+        <alias>R-78C1.8-1.0</alias>
+        <alias>R-78C5.0-1.0</alias>
+        <alias>R-78C3.3-1.0</alias>
+        <alias>R-78C9.0-1.0</alias>
+        <alias>R-78C12-1.0</alias>
+        <alias>R-78C15-1.0</alias>
+        <alias>R-781.8-1.0</alias>
+        <alias>R-782.5-1.0</alias>
+        <alias>R-783.3-1.0</alias>
+        <alias>R-785.0-1.0</alias>
+        <alias>R-781.5-0.5</alias>
+        <alias>R-781.8-0.5</alias>
+        <alias>R-782.5-0.5</alias>
+        <alias>R-783.3-0.5</alias>
+        <alias>R-785.0-0.5</alias>
+        <alias>R-786.5-0.5</alias>
+        <alias>R-7812-0.5</alias>
+        <alias>R-7815-0.5</alias>
+      </aliases>
+      <description>500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3</description>
+      <docs>https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf</docs>
+      <footprints>
+        <fp>Converter*DCDC*RECOM*R*78E*0.5*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R-78E5.0-0.5</field>
+        <field name="Footprint">Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="CD4555BE">
+      <description>CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select</description>
+      <docs>http://www.ti.com/lit/gpn/cd4555b</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">CD4555BE</field>
+        <field name="Footprint">DIP254P762X508-16</field>
+        <field name="Datasheet">http://www.ti.com/lit/gpn/cd4555b</field>
+        <field name="Description">CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">CD4555BE</field>
+        <field name="Mouser Part Number">595-CD4555BE</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~E_2" type="BiDi"/>
+        <pin num="2" name="A_2" type="BiDi"/>
+        <pin num="3" name="B_2" type="BiDi"/>
+        <pin num="4" name="Q0_2" type="BiDi"/>
+        <pin num="5" name="Q1_2" type="BiDi"/>
+        <pin num="6" name="Q2_2" type="BiDi"/>
+        <pin num="7" name="Q3_2" type="BiDi"/>
+        <pin num="8" name="VSS" type="BiDi"/>
+        <pin num="9" name="Q3" type="BiDi"/>
+        <pin num="10" name="Q2" type="BiDi"/>
+        <pin num="11" name="Q1" type="BiDi"/>
+        <pin num="12" name="Q0" type="BiDi"/>
+        <pin num="13" name="B" type="BiDi"/>
+        <pin num="14" name="A" type="BiDi"/>
+        <pin num="15" name="~E" type="BiDi"/>
+        <pin num="16" name="VDD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SamacSys_Parts" part="MCP23017-E_SP">
+      <description>MCP23017-E/SP, I/O Expander, 28-Pin SPDIP</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/MCP23017-E_SP.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP23017-E_SP</field>
+        <field name="Footprint">DIP794W56P254L3486H508Q28N</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/MCP23017-E_SP.pdf</field>
+        <field name="Description">MCP23017-E/SP, I/O Expander, 28-Pin SPDIP</field>
+        <field name="Height">5.08</field>
+        <field name="Mouser Part Number">579-MCP23017-E/SP</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP23017-E%2FSP</field>
+        <field name="Manufacturer_Name">Microchip</field>
+        <field name="Manufacturer_Part_Number">MCP23017-E/SP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="BiDi"/>
+        <pin num="2" name="GPB1" type="BiDi"/>
+        <pin num="3" name="GPB2" type="BiDi"/>
+        <pin num="4" name="GPB3" type="BiDi"/>
+        <pin num="5" name="GPB4" type="BiDi"/>
+        <pin num="6" name="GPB5" type="BiDi"/>
+        <pin num="7" name="GPB6" type="BiDi"/>
+        <pin num="8" name="GPB7" type="BiDi"/>
+        <pin num="9" name="VDD" type="BiDi"/>
+        <pin num="10" name="VSS" type="BiDi"/>
+        <pin num="11" name="NC_1" type="BiDi"/>
+        <pin num="12" name="SCL" type="BiDi"/>
+        <pin num="13" name="SDA" type="BiDi"/>
+        <pin num="14" name="NC_2" type="BiDi"/>
+        <pin num="15" name="A0" type="BiDi"/>
+        <pin num="16" name="A1" type="BiDi"/>
+        <pin num="17" name="A2" type="BiDi"/>
+        <pin num="18" name="~RESET" type="BiDi"/>
+        <pin num="19" name="INTB" type="BiDi"/>
+        <pin num="20" name="INTA" type="BiDi"/>
+        <pin num="21" name="GPA0" type="BiDi"/>
+        <pin num="22" name="GPA1" type="BiDi"/>
+        <pin num="23" name="GPA2" type="BiDi"/>
+        <pin num="24" name="GPA3" type="BiDi"/>
+        <pin num="25" name="GPA4" type="BiDi"/>
+        <pin num="26" name="GPA5" type="BiDi"/>
+        <pin num="27" name="GPA6" type="BiDi"/>
+        <pin num="28" name="GPA7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Reed">
+      <description>reed switch</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Reed</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Arduino_Relay">
+      <uri>P:\Aplikacje\KiCad\outside_lib\Arduino Relay\Arduino Relay\Arduino_Relay.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>P:\Aplikacje\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="RF_Module">
+      <uri>P:\Aplikacje\KiCad\share\kicad\library/RF_Module.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>P:\Aplikacje\KiCad\share\kicad\library/Regulator_Switching.lib</uri>
+    </library>
+    <library logical="SamacSys_Parts">
+      <uri>P:\Aplikacje\KiCad\outside_lib/Library Loader/SamacSys_Parts.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>P:\Aplikacje\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IC2-Pad14)">
+      <node ref="U2" pin="5"/>
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(IC2-Pad15)">
+      <node ref="IC2" pin="15"/>
+    </net>
+    <net code="5" name="Net-(IC1-Pad3)">
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="6" name="Net-(IC2-Pad13)">
+      <node ref="U2" pin="7"/>
+      <node ref="IC2" pin="13"/>
+    </net>
+    <net code="7" name="Net-(IC2-Pad16)">
+      <node ref="IC2" pin="16"/>
+    </net>
+    <net code="8" name="Net-(Q6-Pad3)">
+      <node ref="U3" pin="~"/>
+      <node ref="Q6" pin="3"/>
+    </net>
+    <net code="9" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+      <node ref="SW3" pin="1"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad28)">
+      <node ref="IC3" pin="3"/>
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad14)">
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="12" name="Net-(IC1-Pad13)">
+      <node ref="IC1" pin="13"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="13" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="16" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="17" name="Net-(IC1-Pad5)">
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="19" name="Net-(IC2-Pad10)">
+      <node ref="R1" pin="1"/>
+      <node ref="IC2" pin="10"/>
+    </net>
+    <net code="20" name="Net-(IC2-Pad11)">
+      <node ref="R2" pin="1"/>
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="21" name="Net-(IC3-Pad11)">
+      <node ref="IC3" pin="11"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="22" name="Net-(IC3-Pad6)">
+      <node ref="IC3" pin="6"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(IC3-Pad5)">
+      <node ref="IC3" pin="5"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="24" name="Net-(IC2-Pad9)">
+      <node ref="IC2" pin="9"/>
+    </net>
+    <net code="25" name="Net-(IC2-Pad12)">
+      <node ref="IC2" pin="12"/>
+    </net>
+    <net code="26" name="Net-(Q1-Pad3)">
+      <node ref="U5" pin="~"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="27" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="28" name="Net-(Q4-Pad3)">
+      <node ref="U4" pin="~"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="29" name="Net-(Q3-Pad3)">
+      <node ref="U4" pin="~"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="30" name="Net-(Q2-Pad3)">
+      <node ref="U5" pin="~"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="31" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="32" name="Net-(U4-Pad~)">
+      <node ref="U4" pin="~"/>
+    </net>
+    <net code="33" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="34" name="Net-(U5-Pad5V)">
+      <node ref="U5" pin="5V"/>
+    </net>
+    <net code="35" name="Net-(U4-Pad5V)">
+      <node ref="U4" pin="5V"/>
+    </net>
+    <net code="36" name="Net-(U3-Pad5V)">
+      <node ref="U3" pin="5V"/>
+    </net>
+    <net code="37" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="38" name="Net-(IC1-Pad25)">
+      <node ref="SW2" pin="1"/>
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="39" name="Net-(IC1-Pad26)">
+      <node ref="SW1" pin="1"/>
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="40" name="Net-(SW1-Pad2)">
+      <node ref="SW3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW2" pin="2"/>
+      <node ref="SW4" pin="2"/>
+      <node ref="SW6" pin="2"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="41" name="Net-(IC1-Pad21)">
+      <node ref="SW6" pin="1"/>
+      <node ref="IC1" pin="21"/>
+    </net>
+    <net code="42" name="Net-(IC1-Pad9)">
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="43" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="44" name="Net-(IC1-Pad22)">
+      <node ref="IC1" pin="22"/>
+      <node ref="SW5" pin="1"/>
+    </net>
+    <net code="45" name="Net-(IC1-Pad23)">
+      <node ref="SW4" pin="1"/>
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad12)">
+      <node ref="U2" pin="20"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="47" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="16"/>
+      <node ref="IC1" pin="17"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="48" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+    </net>
+    <net code="50" name="Net-(IC1-Pad19)">
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="51" name="Net-(IC1-Pad20)">
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="52" name="Net-(IC3-Pad2)">
+      <node ref="U2" pin="18"/>
+      <node ref="IC3" pin="2"/>
+    </net>
+    <net code="53" name="Net-(IC3-Pad15)">
+      <node ref="IC3" pin="15"/>
+    </net>
+    <net code="54" name="Net-(IC3-Pad16)">
+      <node ref="IC3" pin="16"/>
+    </net>
+    <net code="55" name="Net-(IC3-Pad8)">
+      <node ref="IC3" pin="8"/>
+    </net>
+    <net code="56" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+    </net>
+    <net code="57" name="Net-(IC3-Pad9)">
+      <node ref="IC3" pin="9"/>
+    </net>
+    <net code="58" name="Net-(IC3-Pad10)">
+      <node ref="R5" pin="1"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="59" name="Net-(IC3-Pad12)">
+      <node ref="IC3" pin="12"/>
+    </net>
+    <net code="60" name="Net-(IC1-Pad27)">
+      <node ref="IC3" pin="13"/>
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="61" name="Net-(IC3-Pad14)">
+      <node ref="U2" pin="6"/>
+      <node ref="IC3" pin="14"/>
+    </net>
+    <net code="62" name="Net-(IC3-Pad7)">
+      <node ref="IC3" pin="7"/>
+    </net>
+    <net code="63" name="Net-(U4-Pad~)">
+      <node ref="U4" pin="~"/>
+    </net>
+    <net code="64" name="Net-(U4-Pad~)">
+      <node ref="U4" pin="~"/>
+    </net>
+    <net code="65" name="Net-(U4-Pad~)">
+      <node ref="U4" pin="~"/>
+    </net>
+    <net code="66" name="Net-(U4-Pad~)">
+      <node ref="U4" pin="~"/>
+    </net>
+    <net code="67" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="68" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="69" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="70" name="Net-(U3-Pad~)">
+      <node ref="U3" pin="~"/>
+    </net>
+    <net code="71" name="Net-(U2-Pad13)">
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="73" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="74" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="75" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="76" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="77" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="78" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="79" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="80" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="81" name="+5V">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="82" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="83" name="Net-(U1-Pad2)">
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="84" name="Net-(U2-Pad3)">
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="85" name="Net-(IC3-Pad4)">
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="87" name="Net-(U2-Pad8)">
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="88" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="89" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="90" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="91" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="92" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="93" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="94" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="95" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="96" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="97" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="98" name="Net-(Q1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="99" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="100" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="101" name="Net-(IC2-Pad6)">
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="102" name="Net-(IC2-Pad5)">
+      <node ref="IC2" pin="5"/>
+    </net>
+    <net code="103" name="Net-(IC2-Pad4)">
+      <node ref="IC2" pin="4"/>
+    </net>
+    <net code="104" name="Net-(IC2-Pad3)">
+      <node ref="IC2" pin="3"/>
+    </net>
+    <net code="105" name="Net-(Q5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="106" name="Net-(IC2-Pad1)">
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="107" name="Net-(Q4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="108" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="109" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="110" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="111" name="Net-(U5-Pad~)">
+      <node ref="U5" pin="~"/>
+    </net>
+    <net code="112" name="Net-(Q3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="113" name="Net-(Q2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+  </nets>
+</export>

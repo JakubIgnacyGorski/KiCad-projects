@@ -1,0 +1,672 @@
+EESchema Schematic File Version 4
+LIBS:Rolety jadalnia x3-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Switching:R-781.5-0.5 U1
+U 1 1 5CB8C0E6
+P 1850 1200
+F 0 "U1" H 1850 1442 50  0000 C CNN
+F 1 "5V to 3.3V" H 1850 1351 50  0000 C CNN
+F 2 "Footprint DIY:5v_to_3.3v" H 1900 950 50  0001 L CIN
+F 3 "https://www.recom-power.com/pdf/Innoline/R-78xx-0.5.pdf" H 1850 1200 50  0001 C CNN
+	1    1850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5CB8C27F
+P 1550 700
+F 0 "#PWR0101" H 1550 550 50  0001 C CNN
+F 1 "+5V" H 1565 873 50  0000 C CNN
+F 2 "" H 1550 700 50  0001 C CNN
+F 3 "" H 1550 700 50  0001 C CNN
+	1    1550 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L RF_Module:ESP-12E U2
+U 1 1 5CB8C376
+P 3050 2300
+F 0 "U2" H 3050 3278 50  0000 C CNN
+F 1 "ESP-12E" H 3050 3187 50  0000 C CNN
+F 2 "RF_Module:ESP-12E" H 3050 2300 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 2700 2400 50  0001 C CNN
+	1    3050 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 1900 2350 1900
+Wire Wire Line
+	2350 1900 2350 1300
+Entry Wire Line
+	2350 1300 2250 1200
+Entry Wire Line
+	3050 1300 2950 1200
+Wire Wire Line
+	3050 1300 3050 1500
+$Comp
+L power:GND #PWR0102
+U 1 1 5CB8C4D6
+P 1550 6450
+F 0 "#PWR0102" H 1550 6200 50  0001 C CNN
+F 1 "GND" H 1555 6277 50  0000 C CNN
+F 2 "" H 1550 6450 50  0001 C CNN
+F 3 "" H 1550 6450 50  0001 C CNN
+	1    1550 6450
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	1850 6350 1950 6450
+Entry Wire Line
+	3050 6350 3150 6450
+Entry Wire Line
+	4900 6350 5000 6450
+$Comp
+L SamacSys_Parts:CD4555BE IC3
+U 1 1 5CB8CA89
+P 5750 2000
+F 0 "IC3" H 6300 2265 50  0000 C CNN
+F 1 "CD4555BE" H 6300 2174 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 6700 2100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/cd4555b" H 6700 2000 50  0001 L CNN
+F 4 "CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select" H 6700 1900 50  0001 L CNN "Description"
+F 5 "" H 6700 1800 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6700 1700 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD4555BE" H 6700 1600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD4555BE" H 6700 1500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE" H 6700 1400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "595-CD4555BE" H 6700 1300 50  0001 L CNN "RS Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE" H 6700 1200 50  0001 L CNN "RS Price/Stock"
+	1    5750 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2000 5650 2000
+Wire Wire Line
+	5750 2700 5700 2700
+Entry Wire Line
+	5650 6350 5750 6450
+Entry Wire Line
+	5700 6350 5800 6450
+Wire Wire Line
+	6850 2000 7000 2000
+Wire Wire Line
+	7000 2000 7000 1300
+Entry Wire Line
+	6900 1200 7000 1300
+Entry Wire Line
+	7000 6350 7100 6450
+Wire Wire Line
+	6850 2100 7000 2100
+Wire Wire Line
+	5600 1700 5600 2100
+Wire Wire Line
+	5600 2100 5750 2100
+Wire Wire Line
+	5500 2850 6900 2850
+Wire Wire Line
+	6900 2850 6900 2300
+Wire Wire Line
+	6900 2300 6850 2300
+Wire Wire Line
+	6950 2200 6850 2200
+$Comp
+L Arduino_Relay:Double_Arduino_Relay_SSR U3
+U 1 1 5CB90F5F
+P 8950 1350
+F 0 "U3" H 9478 1396 50  0000 L CNN
+F 1 "Double_Arduino_Relay_SSR" H 9478 1305 50  0000 L CNN
+F 2 "" H 8950 3050 50  0001 C CNN
+F 3 "" H 8950 3050 50  0001 C CNN
+	1    8950 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Relay:Double_Arduino_Relay_SSR U4
+U 1 1 5CB9153D
+P 8900 2350
+F 0 "U4" H 9428 2396 50  0000 L CNN
+F 1 "Double_Arduino_Relay_SSR" H 9428 2305 50  0000 L CNN
+F 2 "" H 8900 4050 50  0001 C CNN
+F 3 "" H 8900 4050 50  0001 C CNN
+	1    8900 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Relay:Double_Arduino_Relay_SSR U5
+U 1 1 5CB919E4
+P 8850 3350
+F 0 "U5" H 9378 3396 50  0000 L CNN
+F 1 "Double_Arduino_Relay_SSR" H 9378 3305 50  0000 L CNN
+F 2 "" H 8850 5050 50  0001 C CNN
+F 3 "" H 8850 5050 50  0001 C CNN
+	1    8850 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 700  1550 1200
+$Comp
+L Device:Q_NPN_EBC Q6
+U 1 1 5CB9A4F0
+P 7550 1400
+F 0 "Q6" H 7741 1446 50  0000 L CNN
+F 1 "S9014 C331" H 7741 1355 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7750 1500 50  0001 C CNN
+F 3 "~" H 7550 1400 50  0001 C CNN
+	1    7550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q5
+U 1 1 5CB9AC7C
+P 7500 1950
+F 0 "Q5" H 7691 1996 50  0000 L CNN
+F 1 "S9014 C331" H 7691 1905 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7700 2050 50  0001 C CNN
+F 3 "~" H 7500 1950 50  0001 C CNN
+	1    7500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q4
+U 1 1 5CB9B900
+P 7450 2500
+F 0 "Q4" H 7641 2546 50  0000 L CNN
+F 1 "S9014 C331" H 7641 2455 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7650 2600 50  0001 C CNN
+F 3 "~" H 7450 2500 50  0001 C CNN
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q3
+U 1 1 5CB9BFBD
+P 7400 3050
+F 0 "Q3" H 7591 3096 50  0000 L CNN
+F 1 "S9014 C331" H 7591 3005 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7600 3150 50  0001 C CNN
+F 3 "~" H 7400 3050 50  0001 C CNN
+	1    7400 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q2
+U 1 1 5CB9C684
+P 7350 3600
+F 0 "Q2" H 7541 3646 50  0000 L CNN
+F 1 "S9014 C331" H 7541 3555 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 3700 50  0001 C CNN
+F 3 "~" H 7350 3600 50  0001 C CNN
+	1    7350 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_EBC Q1
+U 1 1 5CB9CE78
+P 7300 4150
+F 0 "Q1" H 7491 4196 50  0000 L CNN
+F 1 "S9014 C331" H 7491 4105 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7500 4250 50  0001 C CNN
+F 3 "~" H 7300 4150 50  0001 C CNN
+	1    7300 4150
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7450 6350 7550 6450
+Entry Wire Line
+	7500 6350 7600 6450
+Entry Wire Line
+	7550 6350 7650 6450
+$Comp
+L Device:R R2
+U 1 1 5CB9F236
+P 7150 3450
+F 0 "R2" H 7220 3496 50  0000 L CNN
+F 1 "4k7" H 7220 3405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7080 3450 50  0001 C CNN
+F 3 "~" H 7150 3450 50  0001 C CNN
+	1    7150 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CB9F2E5
+P 7200 2900
+F 0 "R3" H 7270 2946 50  0000 L CNN
+F 1 "4k7" H 7270 2855 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7130 2900 50  0001 C CNN
+F 3 "~" H 7200 2900 50  0001 C CNN
+	1    7200 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CB9FA81
+P 7250 2350
+F 0 "R4" H 7320 2396 50  0000 L CNN
+F 1 "4k7" H 7320 2305 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7180 2350 50  0001 C CNN
+F 3 "~" H 7250 2350 50  0001 C CNN
+	1    7250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5CBA0274
+P 7300 1800
+F 0 "R5" H 7370 1846 50  0000 L CNN
+F 1 "4k7" H 7370 1755 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7230 1800 50  0001 C CNN
+F 3 "~" H 7300 1800 50  0001 C CNN
+	1    7300 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3050 3000 3050 6350
+Wire Wire Line
+	1850 1500 1850 6350
+Wire Wire Line
+	4900 2600 4900 6350
+Wire Wire Line
+	5650 2000 5650 6350
+Wire Wire Line
+	5700 2700 5700 6350
+Wire Wire Line
+	7000 2100 7000 6350
+$Comp
+L Device:R R1
+U 1 1 5CBAB1A7
+P 7100 4000
+F 0 "R1" H 7170 4046 50  0000 L CNN
+F 1 "4k7" H 7170 3955 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7030 4000 50  0001 C CNN
+F 3 "~" H 7100 4000 50  0001 C CNN
+	1    7100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5CBAB8F5
+P 7350 1250
+F 0 "R6" H 7420 1296 50  0000 L CNN
+F 1 "4k7" H 7420 1205 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7280 1250 50  0001 C CNN
+F 3 "~" H 7350 1250 50  0001 C CNN
+	1    7350 1250
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7400 6350 7500 6450
+Wire Wire Line
+	7400 4350 7400 6350
+Wire Wire Line
+	7450 6350 7450 3800
+Wire Wire Line
+	7500 3250 7500 6350
+Wire Wire Line
+	7550 6350 7550 2700
+Entry Wire Line
+	7600 6350 7700 6450
+Entry Wire Line
+	7650 6350 7750 6450
+Wire Wire Line
+	7600 6350 7600 2150
+Wire Wire Line
+	7650 1600 7650 6350
+Wire Wire Line
+	6850 2500 7050 2500
+Wire Wire Line
+	7050 2500 7050 1100
+Wire Wire Line
+	6850 2600 7100 2600
+Wire Wire Line
+	7100 2600 7100 1650
+Wire Wire Line
+	5550 2400 5550 2950
+Wire Wire Line
+	5550 2950 7150 2950
+Wire Wire Line
+	5550 2400 5750 2400
+Wire Wire Line
+	5750 2500 5600 2500
+Wire Wire Line
+	5600 2500 5600 3000
+Wire Wire Line
+	5600 3000 7100 3000
+$Comp
+L SamacSys_Parts:CD4555BE IC2
+U 1 1 5CBBE0F9
+P 5150 3400
+F 0 "IC2" H 5700 3665 50  0000 C CNN
+F 1 "CD4555BE" H 5700 3574 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 6100 3500 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/cd4555b" H 6100 3400 50  0001 L CNN
+F 4 "CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select" H 6100 3300 50  0001 L CNN "Description"
+F 5 "" H 6100 3200 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 6100 3100 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD4555BE" H 6100 3000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD4555BE" H 6100 2900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE" H 6100 2800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "595-CD4555BE" H 6100 2700 50  0001 L CNN "RS Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE" H 6100 2600 50  0001 L CNN "RS Price/Stock"
+	1    5150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2900 6950 2900
+Wire Wire Line
+	6950 2900 6950 2200
+Wire Wire Line
+	6250 4000 6900 4000
+Wire Wire Line
+	6900 4000 6900 3850
+Wire Wire Line
+	6900 3850 7100 3850
+Wire Wire Line
+	7250 2200 7150 2200
+Wire Wire Line
+	7150 2200 7150 2950
+Wire Wire Line
+	7100 3000 7100 2750
+Wire Wire Line
+	7100 2750 7200 2750
+Wire Wire Line
+	7100 1650 7300 1650
+Wire Wire Line
+	7050 1100 7350 1100
+Wire Wire Line
+	6250 3900 6800 3900
+Wire Wire Line
+	6800 3900 6800 3300
+Wire Wire Line
+	6800 3300 7150 3300
+Entry Wire Line
+	5150 6350 5250 6450
+Wire Wire Line
+	5150 4100 5150 6350
+Entry Wire Line
+	8250 800  8350 900 
+Entry Wire Line
+	8200 800  8300 900 
+Entry Wire Line
+	8150 800  8250 900 
+Wire Wire Line
+	8350 900  8350 1100
+Wire Wire Line
+	8300 900  8300 2100
+Wire Wire Line
+	8250 900  8250 3100
+Entry Wire Line
+	8850 6350 8950 6450
+Entry Wire Line
+	8900 6350 9000 6450
+Entry Wire Line
+	8950 6350 9050 6450
+Wire Wire Line
+	8850 6350 8850 3800
+Wire Wire Line
+	8900 6350 8900 2800
+Wire Wire Line
+	8950 1800 8950 6350
+Wire Wire Line
+	7400 3950 8250 3950
+Wire Wire Line
+	8250 3950 8250 3650
+Wire Wire Line
+	7450 3400 8250 3400
+Wire Wire Line
+	8250 3400 8250 3550
+Wire Wire Line
+	7500 2850 8300 2850
+Wire Wire Line
+	8300 2850 8300 2650
+Wire Wire Line
+	7550 2300 8300 2300
+Wire Wire Line
+	8300 2300 8300 2550
+Wire Wire Line
+	7600 1750 8350 1750
+Wire Wire Line
+	8350 1750 8350 1650
+Wire Wire Line
+	7650 1200 8350 1200
+Wire Wire Line
+	8350 1200 8350 1550
+Wire Wire Line
+	6400 3400 6400 1300
+Wire Wire Line
+	6250 3400 6400 3400
+Wire Wire Line
+	6250 3600 6300 3600
+Wire Wire Line
+	6300 3100 6300 3600
+Wire Wire Line
+	6250 3700 6350 3700
+Wire Wire Line
+	6350 3050 5400 3050
+Wire Wire Line
+	5400 3050 5400 2400
+Wire Wire Line
+	5350 3100 6300 3100
+Wire Wire Line
+	6350 3050 6350 3700
+Wire Wire Line
+	6250 3500 6400 3500
+Wire Wire Line
+	6400 3500 6400 6350
+Entry Wire Line
+	6400 6350 6500 6450
+Entry Wire Line
+	6300 1200 6400 1300
+Wire Wire Line
+	5350 2500 5350 3100
+Wire Wire Line
+	5450 2300 5450 2900
+Wire Wire Line
+	3650 2200 3800 2200
+Wire Wire Line
+	3650 2100 3700 2100
+$Comp
+L SamacSys_Parts:MCP23017-E_SP IC1
+U 1 1 5D2A4C94
+P 4100 4550
+F 0 "IC1" H 4700 4815 50  0000 C CNN
+F 1 "MCP23017-E_SP" H 4700 4724 50  0000 C CNN
+F 2 "SamacSys_Parts:DIP794W56P254L3486H508Q28N" H 5150 4650 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/MCP23017-E_SP.pdf" H 5150 4550 50  0001 L CNN
+F 4 "MCP23017-E/SP, I/O Expander, 28-Pin SPDIP" H 5150 4450 50  0001 L CNN "Description"
+F 5 "5.08" H 5150 4350 50  0001 L CNN "Height"
+F 6 "579-MCP23017-E/SP" H 5150 4250 50  0001 L CNN "Mouser Part Number"
+F 7 "https://www.mouser.com/Search/Refine.aspx?Keyword=579-MCP23017-E%2FSP" H 5150 4150 50  0001 L CNN "Mouser Price/Stock"
+F 8 "Microchip" H 5150 4050 50  0001 L CNN "Manufacturer_Name"
+F 9 "MCP23017-E/SP" H 5150 3950 50  0001 L CNN "Manufacturer_Part_Number"
+	1    4100 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 5650 5300 5750
+Connection ~ 5300 5750
+Wire Wire Line
+	5300 5750 5300 5850
+Wire Wire Line
+	5300 5850 5300 6350
+Connection ~ 5300 5850
+Entry Wire Line
+	5300 6350 5400 6450
+Wire Wire Line
+	3700 2100 3700 5750
+Wire Wire Line
+	3700 5750 4100 5750
+Wire Wire Line
+	3800 2200 3800 2600
+Wire Wire Line
+	3800 5650 4100 5650
+Wire Wire Line
+	3800 2600 3800 5650
+Wire Wire Line
+	3650 2600 4900 2600
+Wire Wire Line
+	3650 2500 5350 2500
+Wire Wire Line
+	3650 2400 5400 2400
+Wire Wire Line
+	3650 2300 5450 2300
+Wire Wire Line
+	5750 2200 5300 2200
+Wire Wire Line
+	5300 2200 5300 4550
+Wire Wire Line
+	5500 4650 5300 4650
+Wire Wire Line
+	5500 2850 5500 4650
+Wire Wire Line
+	3650 1700 5600 1700
+$Comp
+L Switch:SW_Reed SW1
+U 1 1 5D2DCB91
+P 9350 4250
+F 0 "SW1" H 9350 4472 50  0000 C CNN
+F 1 "SW_Reed" H 9350 4381 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 4250 50  0001 C CNN
+F 3 "" H 9350 4250 50  0001 C CNN
+	1    9350 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW2
+U 1 1 5D2E010A
+P 9350 4600
+F 0 "SW2" H 9350 4822 50  0000 C CNN
+F 1 "SW_Reed" H 9350 4731 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 4600 50  0001 C CNN
+F 3 "" H 9350 4600 50  0001 C CNN
+	1    9350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW3
+U 1 1 5D2E31D1
+P 9350 4950
+F 0 "SW3" H 9350 5172 50  0000 C CNN
+F 1 "SW_Reed" H 9350 5081 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 4950 50  0001 C CNN
+F 3 "" H 9350 4950 50  0001 C CNN
+	1    9350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW4
+U 1 1 5D2EF982
+P 9350 5300
+F 0 "SW4" H 9350 5522 50  0000 C CNN
+F 1 "SW_Reed" H 9350 5431 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 5300 50  0001 C CNN
+F 3 "" H 9350 5300 50  0001 C CNN
+	1    9350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW5
+U 1 1 5D2EF989
+P 9350 5650
+F 0 "SW5" H 9350 5872 50  0000 C CNN
+F 1 "SW_Reed" H 9350 5781 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 5650 50  0001 C CNN
+F 3 "" H 9350 5650 50  0001 C CNN
+	1    9350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW6
+U 1 1 5D2EF990
+P 9350 6000
+F 0 "SW6" H 9350 6222 50  0000 C CNN
+F 1 "SW_Reed" H 9350 6131 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9350 6000 50  0001 C CNN
+F 3 "" H 9350 6000 50  0001 C CNN
+	1    9350 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 4250 9550 4600
+Connection ~ 9550 4600
+Wire Wire Line
+	9550 4600 9550 4950
+Connection ~ 9550 4950
+Wire Wire Line
+	9550 4950 9550 5300
+Connection ~ 9550 5300
+Wire Wire Line
+	9550 5300 9550 5650
+Connection ~ 9550 5650
+Wire Wire Line
+	9550 5650 9550 6000
+Connection ~ 9550 6000
+Wire Wire Line
+	9550 6000 9550 6350
+Entry Wire Line
+	9550 6350 9650 6450
+Wire Wire Line
+	5300 4750 8700 4750
+Wire Wire Line
+	8700 4750 8700 4250
+Wire Wire Line
+	8700 4250 9150 4250
+Wire Wire Line
+	5300 4850 8800 4850
+Wire Wire Line
+	8800 4850 8800 4600
+Wire Wire Line
+	8800 4600 9150 4600
+Wire Wire Line
+	5300 4950 9150 4950
+Wire Wire Line
+	5300 5050 8800 5050
+Wire Wire Line
+	8800 5050 8800 5300
+Wire Wire Line
+	8800 5300 9150 5300
+Wire Wire Line
+	5300 5150 8700 5150
+Wire Wire Line
+	8700 5150 8700 5650
+Wire Wire Line
+	8700 5650 9150 5650
+Wire Wire Line
+	5300 5250 8600 5250
+Wire Wire Line
+	8600 5250 8600 6000
+Wire Wire Line
+	8600 6000 9150 6000
+Wire Wire Line
+	4100 5450 4000 5450
+Wire Wire Line
+	4000 5450 4000 6350
+Entry Wire Line
+	4000 6350 4100 6450
+Wire Wire Line
+	4100 5350 4000 5350
+Wire Wire Line
+	4000 5350 4000 1300
+Entry Wire Line
+	3900 1200 4000 1300
+Wire Bus Line
+	1550 800  8400 800 
+Wire Bus Line
+	2150 1200 6900 1200
+Wire Bus Line
+	1550 6450 9650 6450
+$EndSCHEMATC

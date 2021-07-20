@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP-12F U?
+U 1 1 6034CBD6
+P 2200 3000
+F 0 "U?" H 2200 3981 50  0000 C CNN
+F 1 "ESP-12F" H 2200 3890 50  0000 C CNN
+F 2 "RF_Module:ESP-12E" H 2200 3000 50  0001 C CNN
+F 3 "http://wiki.ai-thinker.com/_media/esp8266/esp8266_series_modules_user_manual_v1.1.pdf" H 1850 3100 50  0001 C CNN
+	1    2200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Relay:5vto3.3v U?
+U 1 1 6034DBFB
+P 1050 1200
+F 0 "U?" H 1050 1442 50  0000 C CNN
+F 1 "5vto3.3v" H 1050 1351 50  0000 C CNN
+F 2 "" H 1050 1450 50  0001 C CNN
+F 3 "" H 1050 1450 50  0001 C CNN
+	1    1050 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Arduino_Relay:Arduino_Relay_SSR U?
+U 1 1 6034F3C5
+P 8350 1300
+F 0 "U?" H 8778 1346 50  0000 L CNN
+F 1 "Arduino_Relay_SSR" H 8778 1255 50  0000 L CNN
+F 2 "" H 8350 3000 50  0001 C CNN
+F 3 "" H 8350 3000 50  0001 C CNN
+	1    8350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Reed SW?
+U 1 1 6035083E
+P 3950 4200
+F 0 "SW?" H 3950 4422 50  0000 C CNN
+F 1 "SW_Reed" H 3950 4331 50  0000 C CNN
+F 2 "" H 3950 4200 50  0001 C CNN
+F 3 "~" H 3950 4200 50  0001 C CNN
+	1    3950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 603521D9
+P 4500 3550
+F 0 "SW?" H 4500 3835 50  0000 C CNN
+F 1 "SW_Push" H 4500 3744 50  0000 C CNN
+F 2 "" H 4500 3750 50  0001 C CNN
+F 3 "~" H 4500 3750 50  0001 C CNN
+	1    4500 3550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

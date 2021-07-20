@@ -1,0 +1,135 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SamacSys_Parts:CD4555BE IC?
+U 1 1 5F234E69
+P 3550 3000
+F 0 "IC?" H 4100 3265 50  0000 C CNN
+F 1 "CD4555BE" H 4100 3174 50  0000 C CNN
+F 2 "DIP254P762X508-16" H 4500 3100 50  0001 L CNN
+F 3 "http://www.ti.com/lit/gpn/cd4555b" H 4500 3000 50  0001 L CNN
+F 4 "CMOS Dual Binary to 1-of-4 Decoder/Demultiplexer with Outputs High on Select" H 4500 2900 50  0001 L CNN "Description"
+F 5 "" H 4500 2800 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 4500 2700 50  0001 L CNN "Manufacturer_Name"
+F 7 "CD4555BE" H 4500 2600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-CD4555BE" H 4500 2500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=595-CD4555BE" H 4500 2400 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 4500 2300 50  0001 L CNN "RS Part Number"
+F 11 "" H 4500 2200 50  0001 L CNN "RS Price/Stock"
+	1    3550 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5F236B94
+P 5650 2800
+F 0 "Q?" H 5841 2846 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 5841 2755 50  0000 L CNN
+F 2 "" H 5850 2900 50  0001 C CNN
+F 3 "~" H 5650 2800 50  0001 C CNN
+	1    5650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5F2382D8
+P 6050 3350
+F 0 "Q?" H 6241 3396 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 6241 3305 50  0000 L CNN
+F 2 "" H 6250 3450 50  0001 C CNN
+F 3 "~" H 6050 3350 50  0001 C CNN
+	1    6050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5F2387B4
+P 5700 3850
+F 0 "Q?" H 5891 3896 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 5891 3805 50  0000 L CNN
+F 2 "" H 5900 3950 50  0001 C CNN
+F 3 "~" H 5700 3850 50  0001 C CNN
+	1    5700 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NPN_BCE Q?
+U 1 1 5F238A18
+P 6100 4350
+F 0 "Q?" H 6291 4396 50  0000 L CNN
+F 1 "Q_NPN_BCE" H 6291 4305 50  0000 L CNN
+F 2 "" H 6300 4450 50  0001 C CNN
+F 3 "~" H 6100 4350 50  0001 C CNN
+	1    6100 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3000 5750 3000
+Wire Wire Line
+	4650 3100 5450 3100
+Wire Wire Line
+	5450 3100 5450 2800
+Wire Wire Line
+	4650 3200 5300 3200
+Wire Wire Line
+	5300 3200 5300 2600
+Wire Wire Line
+	5300 2600 5750 2600
+Wire Wire Line
+	4650 3300 5850 3300
+Wire Wire Line
+	5850 3300 5850 3350
+Wire Wire Line
+	4650 3400 5750 3400
+Wire Wire Line
+	5750 3400 5750 3150
+Wire Wire Line
+	5750 3150 6150 3150
+Wire Wire Line
+	4650 3500 6150 3500
+Wire Wire Line
+	6150 3500 6150 3550
+Wire Wire Line
+	4650 3600 5800 3600
+Wire Wire Line
+	5800 3600 5800 3650
+Wire Wire Line
+	4650 3700 4650 3850
+Wire Wire Line
+	4650 3850 5500 3850
+Wire Wire Line
+	3550 3700 3550 4050
+Wire Wire Line
+	3550 4050 5800 4050
+Wire Wire Line
+	3350 3600 3350 4150
+Wire Wire Line
+	3350 4150 6200 4150
+Wire Wire Line
+	3350 3600 3550 3600
+Wire Wire Line
+	3550 3500 3200 3500
+Wire Wire Line
+	3200 3500 3200 4350
+Wire Wire Line
+	3200 4350 5900 4350
+Wire Wire Line
+	3550 3400 4150 3400
+Wire Wire Line
+	4150 3400 4150 4550
+Wire Wire Line
+	4150 4550 6200 4550
+$EndSCHEMATC
