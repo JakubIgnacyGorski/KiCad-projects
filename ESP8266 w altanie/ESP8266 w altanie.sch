@@ -577,7 +577,7 @@ Wire Wire Line
 Connection ~ 1450 1900
 Connection ~ 7450 6150
 $Comp
-L Arduino_Relay:8x_Arduino_Relay_SSR U4
+L ESP8266-w-altanie-rescue:8x_Arduino_Relay_SSR-Arduino_Relay U4
 U 1 1 5F952CC1
 P 8850 3150
 F 0 "U4" H 9878 3196 50  0000 L CNN
