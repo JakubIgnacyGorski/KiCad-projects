@@ -1,2 +1,2 @@
-# Jakub-KiCad
+# KiCad-projects
 My KiCad projects 
