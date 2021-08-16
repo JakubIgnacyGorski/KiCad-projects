@@ -792,9 +792,9 @@ Wire Wire Line
 Text Label 6450 6900 0    50   ~ 0
 GND
 Text GLabel 3700 6200 2    50   BiDi ~ 0
-B_RS_B
+RS_B
 Text GLabel 3700 6500 2    50   BiDi ~ 0
-B_RS_A
+RS_A
 Wire Wire Line
 	7050 6300 7050 2800
 Wire Wire Line
