@@ -1497,4 +1497,6 @@ Wire Wire Line
 Connection ~ 8350 6500
 Text Label 10050 6500 2    50   ~ 0
 GND
+Wire Wire Line
+	6500 4850 6500 4900
 $EndSCHEMATC
