@@ -559,8 +559,6 @@ Wire Wire Line
 	3550 2200 3550 2300
 Wire Wire Line
 	2800 2200 3050 2200
-Wire Wire Line
-	3000 1900 3000 2650
 Connection ~ 3550 2200
 Wire Wire Line
 	3950 2200 3950 3900
@@ -978,47 +976,8 @@ Wire Wire Line
 	6600 5050 7600 5050
 Wire Wire Line
 	7600 5050 7600 5650
-$Comp
-L Device:R R?
-U 1 1 60F2739D
-P 3400 2450
-F 0 "R?" V 3193 2450 50  0000 C CNN
-F 1 "4k7" V 3284 2450 50  0000 C CNN
-F 2 "" V 3330 2450 50  0001 C CNN
-F 3 "~" H 3400 2450 50  0001 C CNN
-	1    3400 2450
-	0    1    1    0   
-$EndComp
-$Comp
-L Switch:SW_Push SW?
-U 1 1 60F287F3
-P 3100 2600
-F 0 "SW?" H 3100 2885 50  0000 C CNN
-F 1 "wake_up_pin" H 3100 2794 50  0000 C CNN
-F 2 "" H 3100 2800 50  0001 C CNN
-F 3 "~" H 3100 2800 50  0001 C CNN
-	1    3100 2600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 2300 3550 2450
-Connection ~ 3550 2450
-Wire Wire Line
-	3550 2450 3550 3200
-Wire Wire Line
-	2900 2600 2750 2600
-Wire Wire Line
-	3250 2450 2900 2450
-Wire Wire Line
-	2900 2450 2900 2600
-Connection ~ 2900 2600
 Wire Wire Line
 	3000 1900 3950 1900
-Wire Wire Line
-	3300 2600 3300 2650
-Wire Wire Line
-	3300 2650 3000 2650
-Connection ~ 3000 2650
 Connection ~ 7600 6250
 Wire Wire Line
 	7600 6250 8150 6250
@@ -1103,8 +1062,6 @@ Wire Wire Line
 	4100 5000 4100 4600
 Wire Wire Line
 	4100 4600 4050 4600
-Wire Wire Line
-	3000 2650 3000 3250
 Connection ~ 3000 4300
 Wire Wire Line
 	3000 4300 3000 4600
@@ -1214,4 +1171,8 @@ Connection ~ 8950 5500
 Connection ~ 8150 6250
 Wire Wire Line
 	8150 6250 8500 6250
+Wire Wire Line
+	3550 2300 3550 3200
+Wire Wire Line
+	3000 1900 3000 3250
 $EndSCHEMATC
